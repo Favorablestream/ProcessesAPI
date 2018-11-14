@@ -12,8 +12,10 @@ Simple demo of an ASP.Net Core REST API that returns info about the processes ru
 
 ## Usage
 The API should be listening at https://YOURSERVER/api/processes. nginx will proxy the requests to Kestrel.
+
 Available methods:
-+ GET api/processes #Get all processes
-+ GET api/processes?name=chrome #Get all with a given name
-+ GET api/processes/{PID} #Get a specific process by PID
-+ DELETE api/processes/{PID} #Attempt to kill a process by ID
+
++ GET api/processes
++ GET api/processes?name=chrome
++ GET api/processes/{PID}
++ DELETE api/processes/{PID}
