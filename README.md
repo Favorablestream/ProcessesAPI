@@ -19,3 +19,8 @@ Available methods:
 + GET api/processes?name=chrome
 + GET api/processes/{PID}
 + DELETE api/processes/{PID}
+
+## Useful links
++ https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-2.1
++ https://www.sslshopper.com/article-most-common-openssl-commands.html
++ https://blogs.msdn.microsoft.com/webdev/2017/11/29/configuring-https-in-asp-net-core-across-different-platforms/
